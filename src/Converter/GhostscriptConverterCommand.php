@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Xthiago\PDFVersionConverter\Converter;
+namespace reloxx13\PDFVersionConverter\Converter;
 
 /**
  * Encapsulates the knowledge about gs command.
