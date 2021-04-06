@@ -1,34 +1,40 @@
 {
-    "name": "reloxx13/pdf-version-converter",
-    "description": "PHP library for converting the version of PDF files (for compatibility purposes).",
-    "keywords": ["pdf", "converter", "version converter", "pdf version converter", "pdf version"],
-    "license": "MIT",
-    "type": "library",
-    "minimum-stability" : "dev",
-    "authors": [
-        {
-            "name": "Thiago Rodrigues",
-            "email": "xthiago@gmail.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Reloxx13\\PDFVersionConverter\\": [
-                "src/",
-                "tests/"
-            ]
-        }
-    },
-    "require": {
-        "php": ">=5.3.0",
-        "symfony/process": "^2.3|^3|^4|^5|^6"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~4.5"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
+  "name": "reloxx13/pdf-version-converter",
+  "description": "PHP library for converting the version of PDF files (for compatibility purposes).",
+  "keywords": [
+    "pdf",
+    "converter",
+    "version converter",
+    "pdf version converter",
+    "pdf version"
+  ],
+  "license": "MIT",
+  "type": "library",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Thiago Rodrigues",
+      "email": "xthiago@gmail.com"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PDFVersionConverter\\": [
+        "src/",
+        "tests/"
+      ]
+    }
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "symfony/process": "^2.3|^3|^4|^5|^6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.5"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
 }
