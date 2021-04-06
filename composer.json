@@ -4,7 +4,7 @@
     "keywords": ["pdf", "converter", "version converter", "pdf version converter", "pdf version"],
     "license": "MIT",
     "type": "library",
-    "minimum-stability" : "stable",
+    "minimum-stability" : "dev",
     "authors": [
         {
             "name": "Thiago Rodrigues",
