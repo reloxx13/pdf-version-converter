@@ -19,9 +19,9 @@
   ],
   "autoload": {
     "psr-4": {
-      "PDFVersionConverter\\": [
-        "src/",
-        "tests/"
+      "Reloxx13\\PDFVersionConverter\\": [
+        "src",
+        "tests"
       ]
     }
   },
