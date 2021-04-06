@@ -8,10 +8,10 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace reloxx13\PDFVersionConverter\Converter;
+namespace Reloxx13\PDFVersionConverter\Converter;
 
 use \PHPUnit_Framework_TestCase;
-use reloxx13\PDFVersionConverter\Guesser\RegexGuesser;
+use Reloxx13\PDFVersionConverter\Guesser\RegexGuesser;
 
 /**
  * @author Thiago Rodrigues <xthiago@gmail.com>

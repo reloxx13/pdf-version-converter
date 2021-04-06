@@ -8,7 +8,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace reloxx13\PDFVersionConverter\Converter;
+namespace Reloxx13\PDFVersionConverter\Converter;
 
 use \PHPUnit_Framework_TestCase;
 use Prophecy\Argument;
@@ -55,7 +55,7 @@ class GhostscriptConverterTest extends PHPUnit_Framework_TestCase
             ->shouldBeCalled()
         ;
 
-        $command = $this->prophesize('reloxx13\PDFVersionConverter\Converter\GhostscriptConverterCommand');
+        $command = $this->prophesize('Reloxx13\PDFVersionConverter\Converter\GhostscriptConverterCommand');
         $command->run(
                 $file,
                 Argument::type('string'),
